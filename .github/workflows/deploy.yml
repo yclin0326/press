@@ -6,7 +6,7 @@ on:
   # 在針對 `main` 分支的推送上運行。如果你
   # 使用 `master` 分支作為默認分支，請將其更改為 `master`
   push:
-    branches: [ main ]
+    branches: [ gh-pages ]
 
   # 允許你從 Actions 選項卡手動運行此工作流程
   workflow_dispatch:
