@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Little Andy Press",
   description: "Record my life, thought, and learning process!",
+  base: '/press/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
